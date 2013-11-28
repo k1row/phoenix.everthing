@@ -1,0 +1,1343 @@
+2013-02-08 01:25:01 Error: [MissingActionException] Action AppController::webroot() could not be found.
+#0 /usr/local/nginx/html/c/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /usr/local/nginx/html/c/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /usr/local/nginx/html/c/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-08 01:29:08 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 /usr/local/nginx/html/c/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-08 01:32:31 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 /usr/local/nginx/c/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-08 01:32:34 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 /usr/local/nginx/c/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-08 02:16:27 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 /usr/local/nginx/c/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-19 19:43:08 Error: Fatal Error (4): syntax error, unexpected '$url' (T_VARIABLE) in [/usr/local/nginx/cake/app/Controller/ClickController.php, line 178]
+2013-02-19 19:43:08 Error: [FatalErrorException] syntax error, unexpected '$url' (T_VARIABLE)
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 178)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 178, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 178, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-19 20:26:57 Error: [MissingActionException] Action ClickController::localhost() could not be found.
+#0 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ClickController), Object(CakeRequest), Object(CakeResponse))
+#2 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-19 21:32:58 Error: [MissingActionException] Action ClickController::localhost() could not be found.
+#0 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ClickController), Object(CakeRequest), Object(CakeResponse))
+#2 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-19 21:32:59 Error: [MissingActionException] Action ClickController::localhost() could not be found.
+#0 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ClickController), Object(CakeRequest), Object(CakeResponse))
+#2 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-19 21:33:07 Error: [MissingActionException] Action ClickController::localhost() could not be found.
+#0 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ClickController), Object(CakeRequest), Object(CakeResponse))
+#2 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-19 21:33:08 Error: [MissingActionException] Action ClickController::localhost() could not be found.
+#0 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ClickController), Object(CakeRequest), Object(CakeResponse))
+#2 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-19 21:33:23 Error: [MissingActionException] Action ClickController::{$url}() could not be found.
+#0 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ClickController), Object(CakeRequest), Object(CakeResponse))
+#2 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-19 22:17:59 Error: [MissingActionException] Action ClickController::{$url}() could not be found.
+#0 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ClickController), Object(CakeRequest), Object(CakeResponse))
+#2 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-19 22:18:10 Error: [MissingActionException] Action ClickController::{$url}() could not be found.
+#0 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ClickController), Object(CakeRequest), Object(CakeResponse))
+#2 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-19 22:18:19 Error: [MissingActionException] Action ClickController::localhost.com() could not be found.
+#0 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ClickController), Object(CakeRequest), Object(CakeResponse))
+#2 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-20 17:34:23 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 159]
+2013-02-20 17:34:23 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 159)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 159, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 159, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-20 23:23:02 Error: Fatal Error (4): syntax error, unexpected ')' in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 180]
+2013-02-20 23:23:02 Error: [FatalErrorException] syntax error, unexpected ')'
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 180)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 180, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 180, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-20 23:24:26 Error: Fatal Error (1): Call to undefined function vardump() in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 181]
+2013-02-20 23:24:26 Error: [FatalErrorException] Call to undefined function vardump()
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/usr/local/ngin...', 181)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/usr/local/ngin...', 181, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/usr/local/ngin...', 181, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-21 01:21:27 Error: Fatal Error (4): syntax error, unexpected ')' in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 176]
+2013-02-21 01:21:27 Error: [FatalErrorException] syntax error, unexpected ')'
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 176)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 176, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 176, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-22 00:20:27 Error: Fatal Error (4): syntax error, unexpected ')' in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 224]
+2013-02-22 00:20:27 Error: [FatalErrorException] syntax error, unexpected ')'
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 224)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 224, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 224, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-26 00:10:10 Error: Fatal Error (4): syntax error, unexpected ';' in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 243]
+2013-02-26 00:10:10 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 243)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 243, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 243, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-26 00:10:11 Error: Fatal Error (4): syntax error, unexpected ';' in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 243]
+2013-02-26 00:10:11 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 243)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 243, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 243, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-26 00:19:40 Error: Fatal Error (4): syntax error, unexpected ';' in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 70]
+2013-02-26 00:19:40 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 70)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 70, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 70, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-26 01:45:38 Error: Fatal Error (4): syntax error, unexpected '{' in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 240]
+2013-02-26 01:45:38 Error: [FatalErrorException] syntax error, unexpected '{'
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 240)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 240, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 240, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-26 17:37:50 Error: Fatal Error (1): Call to undefined function http_get() in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 258]
+2013-02-26 17:37:50 Error: [FatalErrorException] Call to undefined function http_get()
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/usr/local/ngin...', 258)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/usr/local/ngin...', 258, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/usr/local/ngin...', 258, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-26 17:38:16 Error: Fatal Error (1): Call to undefined function request() in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 258]
+2013-02-26 17:38:16 Error: [FatalErrorException] Call to undefined function request()
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/usr/local/ngin...', 258)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/usr/local/ngin...', 258, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/usr/local/ngin...', 258, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-26 17:38:17 Error: Fatal Error (1): Call to undefined function request() in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 258]
+2013-02-26 17:38:17 Error: [FatalErrorException] Call to undefined function request()
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/usr/local/ngin...', 258)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/usr/local/ngin...', 258, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/usr/local/ngin...', 258, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-26 17:39:47 Error: Fatal Error (1): Call to undefined function request() in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 258]
+2013-02-26 17:39:47 Error: [FatalErrorException] Call to undefined function request()
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/usr/local/ngin...', 258)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/usr/local/ngin...', 258, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/usr/local/ngin...', 258, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-26 17:40:04 Error: Fatal Error (1): Call to undefined function request() in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 256]
+2013-02-26 17:40:04 Error: [FatalErrorException] Call to undefined function request()
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/usr/local/ngin...', 256)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/usr/local/ngin...', 256, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/usr/local/ngin...', 256, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-26 17:40:05 Error: Fatal Error (1): Call to undefined function request() in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 256]
+2013-02-26 17:40:05 Error: [FatalErrorException] Call to undefined function request()
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/usr/local/ngin...', 256)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/usr/local/ngin...', 256, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/usr/local/ngin...', 256, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-27 19:58:48 Error: Fatal Error (4): syntax error, unexpected 'time_zone' (T_STRING) in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 42]
+2013-02-27 19:58:48 Error: [FatalErrorException] syntax error, unexpected 'time_zone' (T_STRING)
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 42, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 42, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-27 21:15:59 Error: Fatal Error (4): syntax error, unexpected 'time_zone' (T_STRING) in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 42]
+2013-02-27 21:15:59 Error: [FatalErrorException] syntax error, unexpected 'time_zone' (T_STRING)
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 42, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 42, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-27 23:57:48 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 255]
+2013-02-27 23:57:48 Error: [FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 255)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 255, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 255, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-01 19:14:22 Error: [MissingActionException] Action ClickController::test.com() could not be found.
+#0 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ClickController), Object(CakeRequest), Object(CakeResponse))
+#2 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-03-01 19:14:48 Error: [MissingActionException] Action ClickController::test.com() could not be found.
+#0 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ClickController), Object(CakeRequest), Object(CakeResponse))
+#2 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-03-01 19:15:02 Error: [MissingActionException] Action ClickController::test.com() could not be found.
+#0 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ClickController), Object(CakeRequest), Object(CakeResponse))
+#2 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-03-02 00:19:00 Error: Fatal Error (1): Call to a member function set() on a non-object in [/usr/local/nginx/cake/app/Controller/ClickController.php, line 164]
+2013-03-02 00:19:00 Error: [FatalErrorException] Call to a member function set() on a non-object
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/usr/local/ngin...', 164)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/usr/local/ngin...', 164, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/usr/local/ngin...', 164, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-02 00:19:19 Error: Fatal Error (1): Call to a member function set() on a non-object in [/usr/local/nginx/cake/app/Controller/ClickController.php, line 164]
+2013-03-02 00:19:19 Error: [FatalErrorException] Call to a member function set() on a non-object
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/usr/local/ngin...', 164)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/usr/local/ngin...', 164, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/usr/local/ngin...', 164, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-02 01:38:20 Error: Fatal Error (4): syntax error, unexpected ''{$click_table_name}'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [/usr/local/nginx/cake/app/Controller/ClickController.php, line 164]
+2013-03-02 01:38:20 Error: [FatalErrorException] syntax error, unexpected ''{$click_table_name}'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 164)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 164, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 164, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-02 01:40:28 Error: Fatal Error (1): Call to a member function set() on a non-object in [/usr/local/nginx/cake/app/Controller/ClickController.php, line 164]
+2013-03-02 01:40:28 Error: [FatalErrorException] Call to a member function set() on a non-object
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/usr/local/ngin...', 164)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/usr/local/ngin...', 164, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/usr/local/ngin...', 164, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-03-06 22:49:50 Error: [MissingActionException] Action ConversionController::&udid=0000000000000000000000000000000000000fff() could not be found.
+#0 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ConversionController), Object(CakeRequest), Object(CakeResponse))
+#2 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-03-09 02:10:30 Error: Fatal Error (4): syntax error, unexpected '&&' (T_BOOLEAN_AND) in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 167]
+2013-03-09 02:10:30 Error: [FatalErrorException] syntax error, unexpected '&&' (T_BOOLEAN_AND)
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 167)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 167, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 167, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-22 15:02:35 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-22 15:02:36 Error: Fatal Error (64): Cannot redeclare DATABASE_CONFIG::$default in [/usr/local/nginx/cake/app/Config/database.php, line 82]
+2013-04-22 15:02:36 Error: [FatalErrorException] Cannot redeclare DATABASE_CONFIG::$default
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/usr/local/ngin...', 82)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/usr/local/ngin...', 82, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/usr/local/ngin...', 82, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-22 15:03:02 Error: Fatal Error (64): Cannot redeclare DATABASE_CONFIG::$default in [/usr/local/nginx/cake/app/Config/database.php, line 82]
+2013-04-22 15:03:02 Error: [FatalErrorException] Cannot redeclare DATABASE_CONFIG::$default
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot redeclar...', '/usr/local/ngin...', 82)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot redeclar...', '/usr/local/ngin...', 82, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot redeclar...', '/usr/local/ngin...', 82, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-04-22 15:19:55 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-22 15:21:42 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'udid' in 'where clause'
+#0 /usr/local/nginx/cake/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /usr/local/nginx/cake/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('SELECT `Click`....', Array)
+#2 /usr/local/nginx/cake/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Click`....', Array, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Click`....', false)
+#4 /usr/local/nginx/cake/lib/Cake/Model/Model.php(2642): DboSource->read(Object(Click), Array)
+#5 /usr/local/nginx/cake/app/Controller/ConversionController.php(251): Model->find('first', Array)
+#6 [internal function]: ConversionController->index()
+#7 /usr/local/nginx/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ConversionController), Array)
+#8 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ConversionController), Object(CakeRequest), Object(CakeResponse))
+#10 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-04-22 15:22:55 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'appsigid' in 'where clause'
+#0 /usr/local/nginx/cake/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /usr/local/nginx/cake/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('SELECT `Publish...', Array)
+#2 /usr/local/nginx/cake/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Publish...', Array, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Publish...', false)
+#4 /usr/local/nginx/cake/lib/Cake/Model/Model.php(2642): DboSource->read(Object(PublisherDetail), Array)
+#5 /usr/local/nginx/cake/app/Controller/ConversionController.php(421): Model->find('all', Array)
+#6 [internal function]: ConversionController->index()
+#7 /usr/local/nginx/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ConversionController), Array)
+#8 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ConversionController), Object(CakeRequest), Object(CakeResponse))
+#10 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2013-04-25 11:39:18 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 11:43:02 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 11:55:58 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 11:59:33 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-25 12:17:09 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-29 15:39:16 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-04-30 20:06:09 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-01 12:26:30 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-01 12:27:23 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-01 17:43:29 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-01 18:13:53 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-01 18:22:08 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-02 16:09:15 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-02 16:11:37 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-02 16:14:45 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-02 16:15:24 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-03 09:26:14 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-03 16:19:53 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-03 16:41:25 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-03 17:04:07 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-06 11:04:52 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 10:08:06 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 17:09:19 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 17:10:16 Error: Fatal Error (1): Call to undefined method ConversionController::error_log() in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 438]
+2013-05-08 17:10:16 Error: [FatalErrorException] Call to undefined method ConversionController::error_log()
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/usr/local/ngin...', 438)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/usr/local/ngin...', 438, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/usr/local/ngin...', 438, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 17:11:24 Error: Fatal Error (1): Call to undefined method ConversionController::error_log() in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 442]
+2013-05-08 17:11:25 Error: [FatalErrorException] Call to undefined method ConversionController::error_log()
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/usr/local/ngin...', 442)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/usr/local/ngin...', 442, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/usr/local/ngin...', 442, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 17:24:19 Error: Fatal Error (4): syntax error, unexpected ',', expecting variable (T_VARIABLE) or '$' in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 111]
+2013-05-08 17:24:19 Error: [FatalErrorException] syntax error, unexpected ',', expecting variable (T_VARIABLE) or '$'
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 111)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 111, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 111, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 18:07:37 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 18:23:49 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 19:04:13 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 19:14:43 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-08 19:14:58 Error: Fatal Error (1): Call to undefined function doPlayHaven() in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 450]
+2013-05-08 19:14:58 Error: [FatalErrorException] Call to undefined function doPlayHaven()
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/usr/local/ngin...', 450)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/usr/local/ngin...', 450, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/usr/local/ngin...', 450, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-08 19:15:32 Error: Fatal Error (1): Call to undefined function sign_v4() in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 75]
+2013-05-08 19:15:32 Error: [FatalErrorException] Call to undefined function sign_v4()
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/usr/local/ngin...', 75)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/usr/local/ngin...', 75, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/usr/local/ngin...', 75, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-09 10:51:36 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 11:16:10 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 11:22:43 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 17:48:31 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 17:53:07 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 19:14:21 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-09 19:15:53 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 11:26:31 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 11:57:15 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 11:59:41 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 12:03:43 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 12:13:01 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 81]
+2013-05-10 12:13:01 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 81)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 81, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 81, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-10 12:14:41 Error: Fatal Error (4): syntax error, unexpected ';', expecting ')' in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 77]
+2013-05-10 12:14:41 Error: [FatalErrorException] syntax error, unexpected ';', expecting ')'
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 77)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 77, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 77, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-10 12:21:07 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 12:22:17 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 80]
+2013-05-10 12:22:17 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 80)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 80, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 80, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-10 12:22:55 Error: Fatal Error (4): syntax error, unexpected ',' in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 80]
+2013-05-10 12:22:55 Error: [FatalErrorException] syntax error, unexpected ','
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 80)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 80, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 80, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-10 15:51:09 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-10 15:51:24 Error: Fatal Error (4): syntax error, unexpected '{' in [/usr/local/nginx/cake/app/Controller/ClickController.php, line 422]
+2013-05-10 15:51:24 Error: [FatalErrorException] syntax error, unexpected '{'
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 422)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 422, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 422, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-13 12:23:23 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-13 18:27:50 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-14 16:10:18 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-22 10:32:49 Error: Fatal Error (4): syntax error, unexpected '{', expecting '(' in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 125]
+2013-05-22 10:32:49 Error: [FatalErrorException] syntax error, unexpected '{', expecting '('
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 125)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 125, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 125, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 10:33:51 Error: Fatal Error (4): syntax error, unexpected '{', expecting '(' in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 125]
+2013-05-22 10:33:51 Error: [FatalErrorException] syntax error, unexpected '{', expecting '('
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 125)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 125, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 125, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-22 11:47:04 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-23 15:44:12 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-24 10:31:54 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-24 10:32:01 Error: Fatal Error (4): syntax error, unexpected '&&' (T_BOOLEAN_AND), expecting ',' or ')' in [/usr/local/nginx/cake/app/Controller/ClickController.php, line 423]
+2013-05-24 10:32:01 Error: [FatalErrorException] syntax error, unexpected '&&' (T_BOOLEAN_AND), expecting ',' or ')'
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 423)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 423, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 423, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-05-24 11:38:10 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-30 12:18:25 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-31 15:35:21 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-31 20:37:39 Error: [MissingControllerException] Controller class Appsigid=5730e8d62eb8e2f2446356897032f74e01928071&pubid=200000001&idfa=6D983188-A7AB-48F9-BF33-1F714C34EC1A&model=iPhone&sysname=iOS&apiver=1.1Controller could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-31 20:37:59 Error: [MissingControllerException] Controller class Appsigid=5730e8d62eb8e2f2446356897032f74e01928071&pubid=200000001&idfa=6D983188-A7AB-48F9-BF33-1F714C34EC1A&model=iPhone&sysname=iOS&apiver=1.1Controller could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-05-31 20:39:24 Error: [MissingControllerException] Controller class Appsigid=5730e8d62eb8e2f2446356897032f74e01928071&pubid=200000001&idfa=6D983188-A7AB-48F9-BF33-1F714C34EC1A&model=iPhone&sysname=iOS&apiver=1.1Controller could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 14:49:39 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 14:51:50 Error: [MissingControllerException] Controller class HtmlResourcesController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 14:51:50 Error: [MissingControllerException] Controller class HtmlResourcesController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 14:51:50 Error: [MissingControllerException] Controller class HtmlResourcesController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 14:51:50 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 14:51:50 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 14:51:50 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 14:53:24 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 14:53:29 Error: Fatal Error (1): Call to a member function find() on a non-object in [/usr/local/nginx/cake/app/Controller/ClickController.php, line 374]
+2013-06-04 14:53:29 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/usr/local/ngin...', 374)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/usr/local/ngin...', 374, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/usr/local/ngin...', 374, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-04 14:53:53 Error: Fatal Error (1): Call to a member function find() on a non-object in [/usr/local/nginx/cake/app/Controller/ClickController.php, line 374]
+2013-06-04 14:53:53 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/usr/local/ngin...', 374)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/usr/local/ngin...', 374, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/usr/local/ngin...', 374, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-04 14:55:17 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 14:55:39 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 14:55:55 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 14:56:40 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 14:57:08 Error: Fatal Error (1): Call to a member function find() on a non-object in [/usr/local/nginx/cake/app/Controller/ClickController.php, line 374]
+2013-06-04 14:57:08 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/usr/local/ngin...', 374)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/usr/local/ngin...', 374, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/usr/local/ngin...', 374, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-04 14:58:26 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 14:58:46 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 14:58:57 Error: [MissingControllerException] Controller class HtmlResourcesController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 14:58:57 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 14:58:57 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 14:58:57 Error: [MissingControllerException] Controller class HtmlResourcesController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 14:58:57 Error: [MissingControllerException] Controller class HtmlResourcesController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 14:58:57 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 14:58:57 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 14:59:59 Error: [MissingControllerException] Controller class HtmlResourcesController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 14:59:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 14:59:59 Error: [MissingControllerException] Controller class HtmlResourcesController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 14:59:59 Error: [MissingControllerException] Controller class HtmlResourcesController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 14:59:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 14:59:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 14:59:59 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 15:08:43 Error: [MissingControllerException] Controller class HtmlResourcesController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 15:08:43 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 15:08:43 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 15:08:43 Error: [MissingControllerException] Controller class HtmlResourcesController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 15:08:43 Error: [MissingControllerException] Controller class HtmlResourcesController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 15:08:44 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-04 15:08:44 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-12 14:11:05 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-12 14:11:12 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-12 14:11:29 Error: Fatal Error (1): Call to undefined method ClickController::isExistValidClick() in [/usr/local/nginx/cake/app/Controller/ClickController.php, line 114]
+2013-06-12 14:11:29 Error: [FatalErrorException] Call to undefined method ClickController::isExistValidClick()
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/usr/local/ngin...', 114)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/usr/local/ngin...', 114, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/usr/local/ngin...', 114, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-12 14:28:39 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-12 17:07:02 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-12 17:11:31 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-12 17:12:27 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-13 10:59:10 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-14 14:27:20 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-14 14:27:48 Error: Fatal Error (64): Cannot re-assign $this in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 357]
+2013-06-14 14:27:48 Error: [FatalErrorException] Cannot re-assign $this
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot re-assig...', '/usr/local/ngin...', 357)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot re-assig...', '/usr/local/ngin...', 357, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot re-assig...', '/usr/local/ngin...', 357, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-14 14:28:26 Error: Fatal Error (4): syntax error, unexpected ',' in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 529]
+2013-06-14 14:28:26 Error: [FatalErrorException] syntax error, unexpected ','
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 529)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 529, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 529, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-14 14:28:49 Error: Fatal Error (4): syntax error, unexpected ',' in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 529]
+2013-06-14 14:28:49 Error: [FatalErrorException] syntax error, unexpected ','
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 529)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 529, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 529, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-14 14:29:32 Error: Fatal Error (64): Cannot re-assign $this in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 573]
+2013-06-14 14:29:32 Error: [FatalErrorException] Cannot re-assign $this
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(64, 'Cannot re-assig...', '/usr/local/ngin...', 573)
+#1 [internal function]: ErrorHandler::handleError(64, 'Cannot re-assig...', '/usr/local/ngin...', 573, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 64, 'Cannot re-assig...', '/usr/local/ngin...', 573, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-14 14:29:53 Error: Fatal Error (1): Call to undefined method ConversionController::errorFinish() in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 103]
+2013-06-14 14:29:54 Error: [FatalErrorException] Call to undefined method ConversionController::errorFinish()
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/usr/local/ngin...', 103)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/usr/local/ngin...', 103, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/usr/local/ngin...', 103, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-14 15:14:03 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-19 14:09:20 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-19 14:12:26 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-19 15:13:49 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-19 16:24:13 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-19 16:24:36 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mobpartner_tid1' in 'where clause'
+#0 /usr/local/nginx/cake/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /usr/local/nginx/cake/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('SELECT `Click`....', Array)
+#2 /usr/local/nginx/cake/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Click`....', Array, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Click`....', false)
+#4 /usr/local/nginx/cake/lib/Cake/Model/Model.php(2642): DboSource->read(Object(Click), Array)
+#5 /usr/local/nginx/cake/app/Controller/ConversionController.php(515): Model->find('first', Array)
+#6 /usr/local/nginx/cake/app/Controller/ConversionController.php(409): ConversionController->isInstallAgainstClick('idfa', '2BDAAA30-A268-4...')
+#7 /usr/local/nginx/cake/app/Controller/ConversionController.php(111): ConversionController->findValidClick()
+#8 [internal function]: ConversionController->index()
+#9 /usr/local/nginx/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ConversionController), Array)
+#10 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ConversionController), Object(CakeRequest), Object(CakeResponse))
+#12 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-06-19 16:26:56 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'mobpartner_tid1' in 'where clause'
+#0 /usr/local/nginx/cake/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /usr/local/nginx/cake/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('SELECT `Click`....', Array)
+#2 /usr/local/nginx/cake/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Click`....', Array, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Click`....', false)
+#4 /usr/local/nginx/cake/lib/Cake/Model/Model.php(2642): DboSource->read(Object(Click), Array)
+#5 /usr/local/nginx/cake/app/Controller/ConversionController.php(515): Model->find('first', Array)
+#6 /usr/local/nginx/cake/app/Controller/ConversionController.php(409): ConversionController->isInstallAgainstClick('idfa', '2BDAAA30-A268-4...')
+#7 /usr/local/nginx/cake/app/Controller/ConversionController.php(111): ConversionController->findValidClick()
+#8 [internal function]: ConversionController->index()
+#9 /usr/local/nginx/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ConversionController), Array)
+#10 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ConversionController), Object(CakeRequest), Object(CakeResponse))
+#12 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-06-19 16:28:23 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-19 17:20:56 Error: Fatal Error (1): Call to a member function setSource() on a non-object in [/usr/local/nginx/cake/app/Controller/ClickController.php, line 183]
+2013-06-19 17:20:56 Error: [FatalErrorException] Call to a member function setSource() on a non-object
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/usr/local/ngin...', 183)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/usr/local/ngin...', 183, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/usr/local/ngin...', 183, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-19 17:21:18 Error: [MissingTableException] Table ded505b7192f76bb7c588643e7cfb4a07965f6a1Click for model Click was not found in datasource default.
+#0 /usr/local/nginx/cake/app/Controller/ClickController.php(183): Model->setSource('ded505b7192f76b...')
+#1 /usr/local/nginx/cake/app/Controller/ClickController.php(108): ClickController->initCheckCampaign()
+#2 [internal function]: ClickController->index()
+#3 /usr/local/nginx/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ClickController), Array)
+#4 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ClickController), Object(CakeRequest), Object(CakeResponse))
+#6 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-06-19 17:22:01 Error: [MissingTableException] Table ded505b7192f76bb7c588643e7cfb4a07965f6a1Click for model Click was not found in datasource default.
+#0 /usr/local/nginx/cake/app/Controller/ClickController.php(183): Model->setSource('ded505b7192f76b...')
+#1 /usr/local/nginx/cake/app/Controller/ClickController.php(108): ClickController->initCheckCampaign()
+#2 [internal function]: ClickController->index()
+#3 /usr/local/nginx/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ClickController), Array)
+#4 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ClickController), Object(CakeRequest), Object(CakeResponse))
+#6 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-06-19 17:22:07 Error: [MissingTableException] Table ded505b7192f76bb7c588643e7cfb4a07965f6a1Click for model Click was not found in datasource default.
+#0 /usr/local/nginx/cake/app/Controller/ClickController.php(183): Model->setSource('ded505b7192f76b...')
+#1 /usr/local/nginx/cake/app/Controller/ClickController.php(108): ClickController->initCheckCampaign()
+#2 [internal function]: ClickController->index()
+#3 /usr/local/nginx/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ClickController), Array)
+#4 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ClickController), Object(CakeRequest), Object(CakeResponse))
+#6 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-06-19 17:23:16 Error: [MissingTableException] Table ded505b7192f76bb7c588643e7cfb4a07965f6a1Click for model Click was not found in datasource default.
+#0 /usr/local/nginx/cake/app/Controller/ClickController.php(183): Model->setSource('ded505b7192f76b...')
+#1 /usr/local/nginx/cake/app/Controller/ClickController.php(108): ClickController->initCheckCampaign()
+#2 [internal function]: ClickController->index()
+#3 /usr/local/nginx/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ClickController), Array)
+#4 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ClickController), Object(CakeRequest), Object(CakeResponse))
+#6 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-06-19 17:23:55 Error: [MissingTableException] Table ded505b7192f76bb7c588643e7cfb4a07965f6a1Click for model Click was not found in datasource default.
+#0 /usr/local/nginx/cake/app/Controller/ClickController.php(183): Model->setSource('ded505b7192f76b...')
+#1 /usr/local/nginx/cake/app/Controller/ClickController.php(108): ClickController->initCheckCampaign()
+#2 [internal function]: ClickController->index()
+#3 /usr/local/nginx/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ClickController), Array)
+#4 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ClickController), Object(CakeRequest), Object(CakeResponse))
+#6 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-06-19 17:24:41 Error: Fatal Error (1): Call to a member function setSource() on a non-object in [/usr/local/nginx/cake/app/Controller/ClickController.php, line 184]
+2013-06-19 17:24:41 Error: [FatalErrorException] Call to a member function setSource() on a non-object
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/usr/local/ngin...', 184)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/usr/local/ngin...', 184, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/usr/local/ngin...', 184, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-19 17:27:54 Error: Fatal Error (1): Call to undefined function low() in [/usr/local/nginx/cake/app/Controller/ClickController.php, line 188]
+2013-06-19 17:27:54 Error: [FatalErrorException] Call to undefined function low()
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/usr/local/ngin...', 188)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/usr/local/ngin...', 188, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/usr/local/ngin...', 188, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-19 17:28:20 Error: [MissingTableException] Table ded505b7192f76bb7c588643e7cfb4a07965f6a1Click for model Click was not found in datasource default.
+#0 /usr/local/nginx/cake/app/Controller/ClickController.php(185): Model->setSource('ded505b7192f76b...')
+#1 /usr/local/nginx/cake/app/Controller/ClickController.php(109): ClickController->initCheckCampaign()
+#2 [internal function]: ClickController->index()
+#3 /usr/local/nginx/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ClickController), Array)
+#4 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ClickController), Object(CakeRequest), Object(CakeResponse))
+#6 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-06-19 17:30:38 Error: [MissingTableException] Table ded505b7192f76bb7c588643e7cfb4a07965f6a1Click for model Click was not found in datasource default.
+#0 /usr/local/nginx/cake/app/Controller/ClickController.php(185): Model->setSource('ded505b7192f76b...')
+#1 /usr/local/nginx/cake/app/Controller/ClickController.php(109): ClickController->initCheckCampaign()
+#2 [internal function]: ClickController->index()
+#3 /usr/local/nginx/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ClickController), Array)
+#4 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ClickController), Object(CakeRequest), Object(CakeResponse))
+#6 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-06-19 17:33:04 Error: [MissingTableException] Table ded505b7192f76bb7c588643e7cfb4a07965f6a1Click for model Click was not found in datasource default.
+#0 /usr/local/nginx/cake/app/Controller/ClickController.php(186): Model->setSource('ded505b7192f76b...')
+#1 /usr/local/nginx/cake/app/Controller/ClickController.php(110): ClickController->initCheckCampaign()
+#2 [internal function]: ClickController->index()
+#3 /usr/local/nginx/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ClickController), Array)
+#4 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ClickController), Object(CakeRequest), Object(CakeResponse))
+#6 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-06-19 17:43:43 Error: Fatal Error (1): Call to a member function find() on a non-object in [/usr/local/nginx/cake/app/Controller/ClickController.php, line 537]
+2013-06-19 17:43:43 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/usr/local/ngin...', 537)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/usr/local/ngin...', 537, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/usr/local/ngin...', 537, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-19 17:44:58 Error: Fatal Error (1): Call to a member function find() on a non-object in [/usr/local/nginx/cake/app/Controller/ClickController.php, line 537]
+2013-06-19 17:44:58 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/usr/local/ngin...', 537)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/usr/local/ngin...', 537, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/usr/local/ngin...', 537, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-19 17:47:47 Error: Fatal Error (1): Call to a member function find() on a non-object in [/usr/local/nginx/cake/app/Controller/ClickController.php, line 525]
+2013-06-19 17:47:47 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/usr/local/ngin...', 525)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/usr/local/ngin...', 525, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/usr/local/ngin...', 525, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-19 17:47:49 Error: Fatal Error (1): Call to a member function find() on a non-object in [/usr/local/nginx/cake/app/Controller/ClickController.php, line 525]
+2013-06-19 17:47:49 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/usr/local/ngin...', 525)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/usr/local/ngin...', 525, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/usr/local/ngin...', 525, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-19 17:54:01 Error: [MissingTableException] Table ded505b7192f76bb7c588643e7cfb4a07965f6a1Click for model Click was not found in datasource default.
+#0 /usr/local/nginx/cake/app/Controller/ClickController.php(184): Model->setSource('ded505b7192f76b...')
+#1 /usr/local/nginx/cake/app/Controller/ClickController.php(108): ClickController->initCheckCampaign()
+#2 [internal function]: ClickController->index()
+#3 /usr/local/nginx/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ClickController), Array)
+#4 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ClickController), Object(CakeRequest), Object(CakeResponse))
+#6 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-06-19 17:54:55 Error: [MissingTableException] Table ded505b7192f76bb7c588643e7cfb4a07965f6a1Click for model Click was not found in datasource default.
+#0 /usr/local/nginx/cake/app/Controller/ClickController.php(184): Model->setSource('ded505b7192f76b...')
+#1 /usr/local/nginx/cake/app/Controller/ClickController.php(108): ClickController->initCheckCampaign()
+#2 [internal function]: ClickController->index()
+#3 /usr/local/nginx/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ClickController), Array)
+#4 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ClickController), Object(CakeRequest), Object(CakeResponse))
+#6 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-06-19 17:55:09 Error: [MissingTableException] Table ded505b7192f76bb7c588643e7cfb4a07965f6a1Click for model Click was not found in datasource default.
+#0 /usr/local/nginx/cake/app/Controller/ClickController.php(184): Model->setSource('ded505b7192f76b...')
+#1 /usr/local/nginx/cake/app/Controller/ClickController.php(108): ClickController->initCheckCampaign()
+#2 [internal function]: ClickController->index()
+#3 /usr/local/nginx/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ClickController), Array)
+#4 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ClickController), Object(CakeRequest), Object(CakeResponse))
+#6 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-06-19 17:57:21 Error: Fatal Error (1): Call to a member function setSource() on a non-object in [/usr/local/nginx/cake/app/Controller/ClickController.php, line 184]
+2013-06-19 17:57:21 Error: [FatalErrorException] Call to a member function setSource() on a non-object
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/usr/local/ngin...', 184)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/usr/local/ngin...', 184, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/usr/local/ngin...', 184, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-06-19 17:57:45 Error: [MissingTableException] Table ded505b7192f76bb7c588643e7cfb4a07965f6a1Click for model Click was not found in datasource default.
+#0 /usr/local/nginx/cake/app/Controller/ClickController.php(184): Model->setSource('ded505b7192f76b...')
+#1 /usr/local/nginx/cake/app/Controller/ClickController.php(108): ClickController->initCheckCampaign()
+#2 [internal function]: ClickController->index()
+#3 /usr/local/nginx/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ClickController), Array)
+#4 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ClickController), Object(CakeRequest), Object(CakeResponse))
+#6 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-06-19 18:31:18 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-06-19 18:31:28 Error: [MissingTableException] Table Click2 for model Click was not found in datasource default.
+#0 /usr/local/nginx/cake/app/Controller/ClickController.php(185): Model->setSource('Click2')
+#1 /usr/local/nginx/cake/app/Controller/ClickController.php(108): ClickController->initCheckCampaign()
+#2 [internal function]: ClickController->index()
+#3 /usr/local/nginx/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ClickController), Array)
+#4 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ClickController), Object(CakeRequest), Object(CakeResponse))
+#6 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-06-19 18:40:06 Error: [MissingTableException] Table ded505b7192f76bb7c588643e7cfb4a07965f6a1Click for model Click was not found in datasource default.
+#0 /usr/local/nginx/cake/app/Controller/ClickController.php(184): Model->setSource('ded505b7192f76b...')
+#1 /usr/local/nginx/cake/app/Controller/ClickController.php(108): ClickController->initCheckCampaign()
+#2 [internal function]: ClickController->index()
+#3 /usr/local/nginx/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ClickController), Array)
+#4 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ClickController), Object(CakeRequest), Object(CakeResponse))
+#6 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-07-08 19:16:19 Error: [MissingTableException] Table bd788adceb0de1342d08f8d496515e0af034707fClick for model Click was not found in datasource default.
+#0 /usr/local/nginx/cake/app/Controller/ClickController.php(185): Model->setSource('bd788adceb0de13...')
+#1 /usr/local/nginx/cake/app/Controller/ClickController.php(108): ClickController->initCheckCampaign()
+#2 [internal function]: ClickController->index()
+#3 /usr/local/nginx/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ClickController), Array)
+#4 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ClickController), Object(CakeRequest), Object(CakeResponse))
+#6 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-07-08 19:23:15 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-08 19:23:18 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-08 19:23:40 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-09 16:08:26 Error: Fatal Error (4): syntax error, unexpected '}' in [/usr/local/nginx/cake/app/Controller/ClickController.php, line 274]
+2013-07-09 16:08:26 Error: [FatalErrorException] syntax error, unexpected '}'
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 274)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 274, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 274, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-10 13:29:43 Error: Fatal Error (4): syntax error, unexpected ',' in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 660]
+2013-07-10 13:29:43 Error: [FatalErrorException] syntax error, unexpected ','
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 660)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 660, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 660, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-10 13:32:45 Error: Fatal Error (4): syntax error, unexpected ',' in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 658]
+2013-07-10 13:32:45 Error: [FatalErrorException] syntax error, unexpected ','
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 658)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 658, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 658, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-10 16:05:34 Error: [MissingControllerException] Controller class WwwController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-11 15:28:54 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /usr/local/nginx/cake/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /usr/local/nginx/cake/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /usr/local/nginx/cake/lib/Cake/Model/Model.php(3169): ConnectionManager::getDataSource('default')
+#3 /usr/local/nginx/cake/lib/Cake/Model/Model.php(1096): Model->setDataSource('default')
+#4 /usr/local/nginx/cake/lib/Cake/Model/Model.php(3191): Model->setSource('campaign_master...')
+#5 /usr/local/nginx/cake/lib/Cake/Model/Model.php(2642): Model->getDataSource()
+#6 /usr/local/nginx/cake/app/Controller/ConversionController.php(148): Model->find('all', Array)
+#7 /usr/local/nginx/cake/app/Controller/ConversionController.php(89): ConversionController->initCheckCampaign()
+#8 [internal function]: ConversionController->index()
+#9 /usr/local/nginx/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ConversionController), Array)
+#10 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ConversionController), Object(CakeRequest), Object(CakeResponse))
+#12 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-07-11 15:35:20 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /usr/local/nginx/cake/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /usr/local/nginx/cake/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /usr/local/nginx/cake/lib/Cake/Model/Model.php(3169): ConnectionManager::getDataSource('default')
+#3 /usr/local/nginx/cake/lib/Cake/Model/Model.php(1096): Model->setDataSource('default')
+#4 /usr/local/nginx/cake/lib/Cake/Model/Model.php(3191): Model->setSource('campaign_master...')
+#5 /usr/local/nginx/cake/lib/Cake/Model/Model.php(2642): Model->getDataSource()
+#6 /usr/local/nginx/cake/app/Controller/ConversionController.php(148): Model->find('all', Array)
+#7 /usr/local/nginx/cake/app/Controller/ConversionController.php(89): ConversionController->initCheckCampaign()
+#8 [internal function]: ConversionController->index()
+#9 /usr/local/nginx/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ConversionController), Array)
+#10 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ConversionController), Object(CakeRequest), Object(CakeResponse))
+#12 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-07-19 22:31:28 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /usr/local/nginx/cake/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /usr/local/nginx/cake/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /usr/local/nginx/cake/lib/Cake/Model/Model.php(3169): ConnectionManager::getDataSource('default')
+#3 /usr/local/nginx/cake/lib/Cake/Model/Model.php(1096): Model->setDataSource('default')
+#4 /usr/local/nginx/cake/lib/Cake/Model/Model.php(3191): Model->setSource('campaign_master...')
+#5 /usr/local/nginx/cake/lib/Cake/Model/Model.php(2642): Model->getDataSource()
+#6 /usr/local/nginx/cake/app/Controller/ClickController.php(182): Model->find('all', Array)
+#7 /usr/local/nginx/cake/app/Controller/ClickController.php(111): ClickController->initCheckCampaign()
+#8 [internal function]: ClickController->index()
+#9 /usr/local/nginx/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ClickController), Array)
+#10 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ClickController), Object(CakeRequest), Object(CakeResponse))
+#12 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-07-19 22:31:50 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+#0 /usr/local/nginx/cake/lib/Cake/Model/Datasource/DboSource.php(261): Mysql->connect()
+#1 /usr/local/nginx/cake/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /usr/local/nginx/cake/lib/Cake/Model/Model.php(3169): ConnectionManager::getDataSource('default')
+#3 /usr/local/nginx/cake/lib/Cake/Model/Model.php(1096): Model->setDataSource('default')
+#4 /usr/local/nginx/cake/lib/Cake/Model/Model.php(3191): Model->setSource('campaign_master...')
+#5 /usr/local/nginx/cake/lib/Cake/Model/Model.php(2642): Model->getDataSource()
+#6 /usr/local/nginx/cake/app/Controller/ClickController.php(182): Model->find('all', Array)
+#7 /usr/local/nginx/cake/app/Controller/ClickController.php(111): ClickController->initCheckCampaign()
+#8 [internal function]: ClickController->index()
+#9 /usr/local/nginx/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ClickController), Array)
+#10 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ClickController), Object(CakeRequest), Object(CakeResponse))
+#12 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-07-23 16:27:45 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-24 14:04:00 Error: [MissingTableException] Table bd788adceb0de1342d08f8d496515e0af034707fClick for model Click was not found in datasource default.
+#0 /usr/local/nginx/cake/app/Controller/ClickController.php(193): Model->setSource('bd788adceb0de13...')
+#1 /usr/local/nginx/cake/app/Controller/ClickController.php(112): ClickController->initCheckCampaign()
+#2 [internal function]: ClickController->index()
+#3 /usr/local/nginx/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ClickController), Array)
+#4 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ClickController), Object(CakeRequest), Object(CakeResponse))
+#6 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-07-26 14:10:55 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-29 15:55:31 Error: Fatal Error (4): syntax error, unexpected ''creative_id'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/usr/local/nginx/cake/app/Controller/ClickController.php, line 796]
+2013-07-29 15:55:32 Error: [FatalErrorException] syntax error, unexpected ''creative_id'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 796)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 796, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 796, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-29 15:55:59 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'appsigid' in 'where clause'
+#0 /usr/local/nginx/cake/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /usr/local/nginx/cake/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('SELECT `Campaig...', Array)
+#2 /usr/local/nginx/cake/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Campaig...', Array, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Campaig...', false)
+#4 /usr/local/nginx/cake/lib/Cake/Model/Model.php(2642): DboSource->read(Object(CampaignMaster), Array)
+#5 /usr/local/nginx/cake/app/Controller/ClickController.php(804): Model->find('all', Array)
+#6 /usr/local/nginx/cake/app/Controller/ClickController.php(698): ClickController->postBack2Fox()
+#7 /usr/local/nginx/cake/app/Controller/ClickController.php(149): ClickController->do3rdPartyTrack()
+#8 [internal function]: ClickController->index()
+#9 /usr/local/nginx/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ClickController), Array)
+#10 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#11 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ClickController), Object(CakeRequest), Object(CakeResponse))
+#12 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2013-07-30 12:14:02 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 14:28:08 Error: Fatal Error (1): Call to undefined function double() in [/usr/local/nginx/cake/app/Controller/ClickController.php, line 206]
+2013-07-30 14:28:08 Error: [FatalErrorException] Call to undefined function double()
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/usr/local/ngin...', 206)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/usr/local/ngin...', 206, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/usr/local/ngin...', 206, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-30 17:49:22 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-30 17:52:30 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'del' at line 1
+#0 /usr/local/nginx/cake/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /usr/local/nginx/cake/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('del', Array)
+#2 /usr/local/nginx/cake/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('del', Array, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Model/Datasource/DboSource.php(611): DboSource->fetchAll('del', Array, Array)
+#4 /usr/local/nginx/cake/lib/Cake/Model/Model.php(788): DboSource->query('del', Array, Object(Click))
+#5 /usr/local/nginx/cake/app/Controller/ClickController.php(195): Model->__call('del', Array)
+#6 /usr/local/nginx/cake/app/Controller/ClickController.php(195): Click->del('13')
+#7 /usr/local/nginx/cake/app/Controller/ClickController.php(842): ClickController->manualRollbackClick()
+#8 /usr/local/nginx/cake/app/Controller/ClickController.php(732): ClickController->postBack2Fox()
+#9 /usr/local/nginx/cake/app/Controller/ClickController.php(151): ClickController->do3rdPartyTrack()
+#10 [internal function]: ClickController->index()
+#11 /usr/local/nginx/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ClickController), Array)
+#12 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#13 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ClickController), Object(CakeRequest), Object(CakeResponse))
+#14 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#15 {main}
+2013-07-31 10:34:09 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-07-31 12:12:00 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';' in [/usr/local/nginx/cake/app/Controller/ClickController.php, line 67]
+2013-07-31 12:12:00 Error: [FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ',' or ';'
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 67)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 67, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 67, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-07-31 12:19:01 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'CampaignMaster.ad-x' in 'field list'
+#0 /usr/local/nginx/cake/lib/Cake/Model/Datasource/DboSource.php(459): PDOStatement->execute(Array)
+#1 /usr/local/nginx/cake/lib/Cake/Model/Datasource/DboSource.php(425): DboSource->_execute('SELECT `Campaig...', Array)
+#2 /usr/local/nginx/cake/lib/Cake/Model/Datasource/DboSource.php(669): DboSource->execute('SELECT `Campaig...', Array, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Model/Datasource/DboSource.php(1080): DboSource->fetchAll('SELECT `Campaig...', false)
+#4 /usr/local/nginx/cake/lib/Cake/Model/Model.php(2642): DboSource->read(Object(CampaignMaster), Array)
+#5 /usr/local/nginx/cake/app/Controller/ClickController.php(227): Model->find('all', Array)
+#6 /usr/local/nginx/cake/app/Controller/ClickController.php(135): ClickController->initCheckCampaign()
+#7 [internal function]: ClickController->index()
+#8 /usr/local/nginx/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ClickController), Array)
+#9 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ClickController), Object(CakeRequest), Object(CakeResponse))
+#11 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2013-07-31 14:07:33 Error: Fatal Error (4): syntax error, unexpected '=', expecting variable (T_VARIABLE) in [/usr/local/nginx/cake/app/Controller/ClickController.php, line 37]
+2013-07-31 14:07:34 Error: [FatalErrorException] syntax error, unexpected '=', expecting variable (T_VARIABLE)
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 37)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 37, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 37, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-08 14:36:01 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-16 17:26:41 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 18:02:53 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-08-29 18:04:11 Error: Fatal Error (4): syntax error, unexpected '"HTTP/1.0 400 Bad Reques\r\n"' (T_CONSTANT_ENCAPSED_STRING) in [/usr/local/nginx/cake/app/Controller/ClickController.php, line 77]
+2013-08-29 18:04:11 Error: [FatalErrorException] syntax error, unexpected '"HTTP/1.0 400 Bad Reques\r\n"' (T_CONSTANT_ENCAPSED_STRING)
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 77)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 77, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 77, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-08-29 18:04:33 Error: Fatal Error (4): syntax error, unexpected '"HTTP/1.0 400 Bad Reques\r\n"' (T_CONSTANT_ENCAPSED_STRING) in [/usr/local/nginx/cake/app/Controller/ClickController.php, line 77]
+2013-08-29 18:04:33 Error: [FatalErrorException] syntax error, unexpected '"HTTP/1.0 400 Bad Reques\r\n"' (T_CONSTANT_ENCAPSED_STRING)
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 77)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 77, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 77, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-03 13:41:15 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-03 13:59:40 Error: Fatal Error (1): Call to a member function find() on a non-object in [/usr/local/nginx/cake/app/Controller/ClickController.php, line 1272]
+2013-09-03 13:59:40 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/usr/local/ngin...', 1272)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/usr/local/ngin...', 1272, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/usr/local/ngin...', 1272, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-03 14:01:15 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-04 12:09:59 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-05 11:42:53 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [/usr/local/nginx/cake/app/Controller/ClickController.php, line 299]
+2013-09-05 11:42:53 Error: [FatalErrorException] syntax error, unexpected 'if' (T_IF)
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 299)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 299, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 299, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-05 13:36:57 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-06 13:45:35 Error: Fatal Error (4): syntax error, unexpected '$conditions' (T_VARIABLE) in [/usr/local/nginx/cake/app/Controller/ClickController.php, line 1253]
+2013-09-06 13:45:35 Error: [FatalErrorException] syntax error, unexpected '$conditions' (T_VARIABLE)
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/usr/local/ngin...', 1253)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/usr/local/ngin...', 1253, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/usr/local/ngin...', 1253, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-10 18:52:54 Error: [MissingTableException] Table 6787e498108aa20658cc83aac9ff490b45b073faClick for model Click was not found in datasource default.
+#0 /usr/local/nginx/cake/app/Controller/ClickController.php(287): Model->setSource('6787e498108aa20...')
+#1 /usr/local/nginx/cake/app/Controller/ClickController.php(153): ClickController->initCheckCampaign()
+#2 [internal function]: ClickController->index()
+#3 /usr/local/nginx/cake/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(ClickController), Array)
+#4 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /usr/local/nginx/cake/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(ClickController), Object(CakeRequest), Object(CakeResponse))
+#6 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-09-10 18:55:47 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-11 09:48:47 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-12 11:29:27 Error: Fatal Error (1): Call to undefined method ClickController::sqlDump() in [/usr/local/nginx/cake/app/Controller/ClickController.php, line 194]
+2013-09-12 11:29:27 Error: [FatalErrorException] Call to undefined method ClickController::sqlDump()
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/usr/local/ngin...', 194)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/usr/local/ngin...', 194, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/usr/local/ngin...', 194, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-12 14:53:26 Error: [MissingControllerException] Controller class ClickController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-19 12:47:29 Error: [MissingControllerException] Controller class ConverionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-19 16:01:34 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-09-19 16:01:48 Error: Fatal Error (1): Call to undefined method ConversionController::finish() in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 154]
+2013-09-19 16:01:48 Error: [FatalErrorException] Call to undefined method ConversionController::finish()
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/usr/local/ngin...', 154)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/usr/local/ngin...', 154, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/usr/local/ngin...', 154, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-19 16:03:06 Error: Fatal Error (1): Call to undefined method ConversionController::ret200() in [/usr/local/nginx/cake/app/Controller/ConversionController.php, line 166]
+2013-09-19 16:03:06 Error: [FatalErrorException] Call to undefined method ConversionController::ret200()
+#0 /usr/local/nginx/cake/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/usr/local/ngin...', 166)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/usr/local/ngin...', 166, Array)
+#2 /usr/local/nginx/cake/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/usr/local/ngin...', 166, Array)
+#3 /usr/local/nginx/cake/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-09-20 12:55:01 Error: [MissingControllerException] Controller class ConversionController could not be found.
+#0 /usr/local/nginx/cake/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

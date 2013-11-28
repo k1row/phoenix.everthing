@@ -1,0 +1,63 @@
+<?php $this->Html->script(array('jquery-1.9.1', 'jquery-ui-1.10.3.custom.min', 'jquery.jqGrid-4.5.2/src/jquery.jqGrid', 'jquery.jqGrid-4.5.2/src/jqModal', 'jquery.jqGrid-4.5.2/src/jqDnR', 'jquery.ui.ympicker', 'jMenu.jquery'), array('inline'=>false)); ?>
+<?php $this->Html->scriptStart(array('inline'=>false)); ?>
+<?php echo $this->Html->css(array('style', 'ui.jqgrid', 'ui-lightness/jquery-ui-1.10.3.custom.min', 'jMenu.jquery'), false, array('inline'=>false)); ?>
+
+
+var createGrid = function () {
+		jQuery("#list").jqGrid({
+			url:'jqgrid',
+			datatype: 'xml',
+			colNames:['appsigid', 'appname', 'cpi', 'Today', 'Yesterday', '2days-ago', '3days-ago', '4days-ago', '5days-ago', '6days-ago'],
+			colModel:[ {index:'appsigid', name:'appsigid', width: '250', align: 'left', editable:false, editoptions:{size:10, readonly:'readonly'}, hidden:false },
+								 {index:'appname', name:'appname', width: '200', align: 'center', editable:false, editoptions:{size:10} },
+								 {index:'cpi', name:'cpi', width: '80', align: 'right', editable:false, editoptions:{size:20} },
+								 {index:'Today', name:'Today', width: '80', align: 'right', editable:false, editoptions:{size:20} },
+								 {index:'Yesterday', name:'Yesterday', width: '80', align: 'right', editable:false, editoptions:{size:20} },
+								 {index:'2days-ago', name:'2days-ago', width: '80', align: 'right', editable:false, editoptions:{size:20} },
+								 {index:'3days-ago', name:'3days-ago', width: '80', align: 'right', editable:false, editoptions:{size:20} },
+								 {index:'4days-ago', name:'4days-ago', width: '80', align: 'right', editable:false, editoptions:{size:20} },
+								 {index:'5days-ago', name:'5days-ago', width: '80', align: 'right', editable:false, editoptions:{size:20} },
+								 {index:'6days-ago', name:'6days-ago', width: '80', align: 'right', editable:false, editoptions:{size:20} },
+								 ],
+			rowNum:50,
+			multiselect: false,
+			loadComplete : function () {
+					//$("#list").jqGrid('setGridWidth', $(map_canvas).width(), true);
+			},
+
+			ondblClickRow: function (id) {
+					if(id == 0) { return; }
+
+					var row = $('#list').getRowData (id);
+					window.location = "/campaignreport/?appsigid=" + row.appsigid;
+			},
+
+			width: 'auto',
+			height: 'auto',
+			rowList:[10,20,30],
+			sortname: 'id',
+			sortorder: "asc",
+			viewrecords: true,
+			caption: 'Past 7 days install numbers'
+		});
+};
+
+
+jQuery(document).ready(function () {
+		$("#jMenu").jMenu();
+
+		$("#list").GridUnload ();
+		createGrid ();
+});
+
+
+<?php $this->Html->scriptEnd(); ?>
+
+<br />
+<div class="headline" align="center">
+  <!--<h3 id="heading04">New Dashboard has been released!!</h3>-->
+	<table id="list"></table> 
+	<div id="pager" style="text-align:center;"></div>
+</div>
+<br />
+
